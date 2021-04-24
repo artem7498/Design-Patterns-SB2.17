@@ -15,6 +15,17 @@
 		AC759EC6263182B800F1C056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC759EC4263182B800F1C056 /* LaunchScreen.storyboard */; };
 		AC759ED1263182B800F1C056 /* Design_Patterns_SB2_17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759ED0263182B800F1C056 /* Design_Patterns_SB2_17Tests.swift */; };
 		AC759EDC263182B800F1C056 /* Design_Patterns_SB2_17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759EDB263182B800F1C056 /* Design_Patterns_SB2_17UITests.swift */; };
+		AC759EF02631835800F1C056 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759EEF2631835800F1C056 /* Factory.swift */; };
+		AC759EF52632744500F1C056 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759EF42632744500F1C056 /* Builder.swift */; };
+		AC759EFA2632818300F1C056 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759EF92632818300F1C056 /* Singleton.swift */; };
+		AC759EFF263287F600F1C056 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759EFE263287F600F1C056 /* Adapter.swift */; };
+		AC759F0726328F3300F1C056 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759F0626328F3300F1C056 /* Composite.swift */; };
+		AC759F0C2632A06C00F1C056 /* Façade.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759F0B2632A06C00F1C056 /* Façade.swift */; };
+		AC759F112633CEA100F1C056 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759F102633CEA100F1C056 /* Command.swift */; };
+		AC759F162633DC0600F1C056 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759F152633DC0600F1C056 /* Memento.swift */; };
+		AC759F1B2633E1DA00F1C056 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759F1A2633E1DA00F1C056 /* Strategy.swift */; };
+		AC759F202633E46400F1C056 /* Virtual Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759F1F2633E46400F1C056 /* Virtual Proxy.swift */; };
+		AC759F252633E83800F1C056 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC759F242633E83800F1C056 /* Visitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +60,17 @@
 		AC759ED7263182B800F1C056 /* Design Patterns SB2.17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design Patterns SB2.17UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC759EDB263182B800F1C056 /* Design_Patterns_SB2_17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Patterns_SB2_17UITests.swift; sourceTree = "<group>"; };
 		AC759EDD263182B800F1C056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC759EEF2631835800F1C056 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		AC759EF42632744500F1C056 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		AC759EF92632818300F1C056 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		AC759EFE263287F600F1C056 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		AC759F0626328F3300F1C056 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		AC759F0B2632A06C00F1C056 /* Façade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Façade.swift"; sourceTree = "<group>"; };
+		AC759F102633CEA100F1C056 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		AC759F152633DC0600F1C056 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		AC759F1A2633E1DA00F1C056 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		AC759F1F2633E46400F1C056 /* Virtual Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Virtual Proxy.swift"; sourceTree = "<group>"; };
+		AC759F242633E83800F1C056 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +124,17 @@
 				AC759EB9263182B700F1C056 /* AppDelegate.swift */,
 				AC759EBB263182B700F1C056 /* SceneDelegate.swift */,
 				AC759EBD263182B700F1C056 /* ViewController.swift */,
+				AC759EEF2631835800F1C056 /* Factory.swift */,
+				AC759EF42632744500F1C056 /* Builder.swift */,
+				AC759EF92632818300F1C056 /* Singleton.swift */,
+				AC759EFE263287F600F1C056 /* Adapter.swift */,
+				AC759F0626328F3300F1C056 /* Composite.swift */,
+				AC759F0B2632A06C00F1C056 /* Façade.swift */,
+				AC759F102633CEA100F1C056 /* Command.swift */,
+				AC759F152633DC0600F1C056 /* Memento.swift */,
+				AC759F1A2633E1DA00F1C056 /* Strategy.swift */,
+				AC759F1F2633E46400F1C056 /* Virtual Proxy.swift */,
+				AC759F242633E83800F1C056 /* Visitor.swift */,
 				AC759EBF263182B700F1C056 /* Main.storyboard */,
 				AC759EC2263182B800F1C056 /* Assets.xcassets */,
 				AC759EC4263182B800F1C056 /* LaunchScreen.storyboard */,
@@ -258,9 +291,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC759EF02631835800F1C056 /* Factory.swift in Sources */,
+				AC759EFA2632818300F1C056 /* Singleton.swift in Sources */,
+				AC759EFF263287F600F1C056 /* Adapter.swift in Sources */,
+				AC759F112633CEA100F1C056 /* Command.swift in Sources */,
 				AC759EBE263182B700F1C056 /* ViewController.swift in Sources */,
+				AC759F202633E46400F1C056 /* Virtual Proxy.swift in Sources */,
+				AC759F252633E83800F1C056 /* Visitor.swift in Sources */,
+				AC759F0C2632A06C00F1C056 /* Façade.swift in Sources */,
+				AC759F162633DC0600F1C056 /* Memento.swift in Sources */,
 				AC759EBA263182B700F1C056 /* AppDelegate.swift in Sources */,
+				AC759F1B2633E1DA00F1C056 /* Strategy.swift in Sources */,
+				AC759F0726328F3300F1C056 /* Composite.swift in Sources */,
 				AC759EBC263182B700F1C056 /* SceneDelegate.swift in Sources */,
+				AC759EF52632744500F1C056 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ArtemA.Design-Patterns-SB2-17";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ArtemA.Design-Patterns-SB2-17";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
